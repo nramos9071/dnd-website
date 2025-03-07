@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(190, 164, 78, 0.651);
+    color: black;
+    margin: 50px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+.city-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city-title {
+    text-decoration: underline;
+}
+
+.store-menu{
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: block;
+    }
+    
+}
