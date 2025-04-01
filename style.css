@@ -23,6 +23,19 @@ body {
     padding: 20px;
 }
 
+#days-together{
+    padding: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#number-days {
+    padding: 20px;
+    font-size: 40px;
+
+}
+    
+
 @media screen and (max-width: 600px) {
     .nav {
         display: block;
