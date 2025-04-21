@@ -23,6 +23,11 @@ body {
     padding: 20px;
 }
 
+.notes {
+    display: flex;
+    padding: 50px
+}
+
 #days-together{
     padding: 20px;
     font-size: 60px;
