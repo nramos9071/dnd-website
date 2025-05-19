@@ -39,6 +39,10 @@ body {
     font-size: 40px;
 
 }
+
+#sessions{
+    list-style-type: none;
+}
     
 
 @media screen and (max-width: 600px) {
