@@ -43,6 +43,10 @@ body {
 #sessions{
     list-style-type: none;
 }
+
+#nope-items {
+    text-decoration: line-through;
+}
     
 
 @media screen and (max-width: 600px) {
