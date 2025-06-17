@@ -1,8 +1,18 @@
+header {
+    padding: 0px
+}
+
 body {
-    background-color: rgba(190, 164, 78, 0.651);
-    color: black;
+    background-color: rgb(44, 9, 68);
+    color: white;
+    /* margin: 50px; */
+}
+
+main {
     margin: 50px;
 }
+
+
 
 .nav {
     list-style-type: none;
@@ -28,9 +38,22 @@ body {
     padding: 50px
 }
 
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-title {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+}
+
 #days-together{
     padding: 20px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 }
 
