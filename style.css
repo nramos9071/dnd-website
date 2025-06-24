@@ -51,6 +51,10 @@ main {
   margin: 0px 0px 0px 10px;
 }
 
+.completed {
+    text-decoration: line-through;
+}
+
 #days-together{
     padding: 20px;
     font-size: 40px;
