@@ -52,7 +52,20 @@ main {
 }
 
 .completed {
-    text-decoration: line-through;
+    text-decoration: none;
+}
+
+ul li.completed {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+ul li.completed::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    color: green;
 }
 
 #days-together{
