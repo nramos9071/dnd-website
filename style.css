@@ -68,6 +68,19 @@ ul li.completed::before {
     color: green;
 }
 
+ul li.failed {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+ul li.failed::before {
+  content: "\00D7";
+  position: absolute;
+  left: 0;
+  color: red;
+}
+
 #days-together{
     padding: 20px;
     font-size: 40px;
