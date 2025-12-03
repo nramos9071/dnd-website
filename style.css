@@ -74,7 +74,7 @@ ul li.failed {
     padding-left: 1.5em;
 }
 
-ul li.completed::before {
+ul li.failed::before {
   content: "\2716\FE0E"; /* U+2716 + VS-15 => text presentation of ✖ */
   color: red;
   font-family: Arial, sans-serif;
