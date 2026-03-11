@@ -12,6 +12,9 @@ main {
     margin: 50px;
 }
 
+mark {
+    background-color: yellow;
+}
 
 
 .nav {
@@ -53,6 +56,11 @@ main {
 
 .completed {
     text-decoration: none;
+}
+
+.new{
+    background-color: yellow;
+    color: black;
 }
 
 ul li.completed {
@@ -99,6 +107,8 @@ ul li.failed::before {
 #nope-items {
     text-decoration: line-through;
 }
+
+
     
 
 @media screen and (max-width: 600px) {
